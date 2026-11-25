@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LinguaAI | AI Language Translation System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <main class="welcome-page">
+
+        <div class="welcome-card">
+
+            <!-- Website Heading -->
+
+            <div class="welcome-heading">
+
+                <h1>
+                    AI Language
+                    <span>Translation System</span>
+                </h1>
+
+                <p>
+                    Break Language Barriers. Connect the World.
+                </p>
+
+            </div>
+
+
+            <!-- Globe Image -->
+
+            <div class="globe-container">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <img src="{{ url_for('static', filename='images/world.png') }}"
+                    alt="AI Language Translation Global Globe" class="globe-image">
+
+            </div>
+
+
+            <!-- Start Button -->
+
+            <div class="start-section">
+
+                <a href="{{ url_for('account') }}" class="start-button">
+
+                    Start Translating
+
+                    <span>→</span>
+
+                </a>
+
+                <p class="preview-text">
+                    Powered by Artificial Intelligence
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.welcome-heading h1 {
+    font-size: clamp(42px, 5.5vw, 72px);
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+
+.welcome-heading h1 span {
+    display: block;
+    font-size: 0.95em;
+    background: linear-gradient(90deg,
+            #9146e8,
+            #e45bb8,
+            #5799e9);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
